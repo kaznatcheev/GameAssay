@@ -55,6 +55,8 @@ fibroV = np.array([[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
                   ])
 
 #use this function to load processed data from files
+import numpy as np
+
 def LoadPlate(rootDir):
     red_all = np.load(rootDir + '/Processed/red_all.npy')
     green_all = np.load(rootDir + '/Processed/green_all.npy')
